@@ -14,10 +14,10 @@ int main() {
 - [ ] 待办事项
 - [x] 已办事项
 
-| title 1| title2| title3|
-|:-------|:----:|----:|
-| content1|content2|content3|
-|1|2|3|
+| title 1  |  title2  |   title3 |
+| :------- | :------: | -------: |
+| content1 | content2 | content3 |
+| 1        |    2     |        3 |
 
 ---
 [实验2](#实验2)
@@ -25,3 +25,7 @@ int main() {
 
 [知乎] [b]
  [b] : https://www.zhihu.com/hot
+
+`lhh`
+
+~~delete~~
