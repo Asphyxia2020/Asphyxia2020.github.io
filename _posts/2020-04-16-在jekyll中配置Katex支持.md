@@ -7,7 +7,7 @@
 
 
 1. 在`_layouts\default.html`*</body>*中添加如下内容
-```javascript
+~~~`javascript
 <script>
   $("script[type='math/tex']").replaceWith(function() {
       var tex = $(this).text();
@@ -19,4 +19,5 @@
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
-```
+~~~  
+final
