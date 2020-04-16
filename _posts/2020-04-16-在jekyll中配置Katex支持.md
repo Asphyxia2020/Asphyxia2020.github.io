@@ -6,8 +6,8 @@
 ><script src="{{ "/static/katex/katex.min.js" | prepend: site.baseurl }}"></script>
 
 
-1. 在`_layouts\default.html`*</body>*中添加如下内容
-~~~`javascript
+1. 在`_layouts\default.html`*</body>*中添加如下内容  
+~~~javascript
 <script>
   $("script[type='math/tex']").replaceWith(function() {
       var tex = $(this).text();
@@ -20,4 +20,4 @@
   });
 </script>
 ~~~  
-final
+finally
