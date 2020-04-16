@@ -1,12 +1,11 @@
 **在线方式**
-1. 在`_includes\head.html`中添加如下代码 
- 
-~~~html
+1. 在`_includes\head.html`中添加如下代码  ~~~html
 link rel="stylesheet" href="{{ "/static/katex/katex.min.css" | prepend: site.baseurl }}">
 <script src="{{ "/static/katex/katex.min.js" | prepend: site.baseurl }}"></script>
 ~~~
+2. 
 
-2. 在`_layouts\default.html`*</body>*中添加如下内容  
+在`_layouts\default.html`*</body>*中添加如下内容  
 
 ~~~html
 <script>
@@ -21,4 +20,4 @@ link rel="stylesheet" href="{{ "/static/katex/katex.min.css" | prepend: site.bas
   });
 </script>
 ~~~  
-finally
+final
