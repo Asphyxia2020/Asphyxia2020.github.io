@@ -18,8 +18,17 @@
     <img src="/img/apple-touch-icon.png" width="0" height="0" />
     <!-- Migrate from head to bottom, no longer block render and still work -->
 
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+    <script>
+        $("script[type='math/tex']").replaceWith(function() {
+            var tex = $(this).text();
+            return katex.renderToString(tex, {displayMode: false});
+        });
+      
+        $("script[type='math/tex; mode=display']").replaceWith(function() {
+            var tex = $(this).html();
+            return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+        });
+      </script>
 </body>
 
 </html>
