@@ -5,7 +5,6 @@ link rel="stylesheet" href="{{ "/static/katex/katex.min.css" | prepend: site.bas
 <script src="{{ "/static/katex/katex.min.js" | prepend: site.baseurl }}"></script>
 ~~~  
 2. 在`_layouts\default.html`*</body>*中添加如下内容  
-
 ~~~html
 <script>
   $("script[type='math/tex']").replaceWith(function() {
