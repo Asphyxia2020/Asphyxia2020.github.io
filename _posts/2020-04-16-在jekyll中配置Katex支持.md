@@ -33,4 +33,4 @@ link rel="stylesheet" href="{{ "/static/katex/katex.min.css" | prepend: site.bas
 </script>
 ~~~   
 
-final
+finally
