@@ -112,3 +112,16 @@ friends: [
         href: "https://en.nuist.edu.cn/"
     }
 ]
+
+# 添加category内容
+permalink: /:categories/:title/
+
+# List of links in the navigation bar
+navbar-links:
+  主页: "https://asphyxia2020.github.io/"
+  分类: "https://asphyxia2020.github.io/categories/"
+  标签: "https://asphyxia2020.github.io/tags/"
+  项目:
+    - Learn markdown: "http://www.markdowntutorial.com/"
+  关于我: "aboutme"
+  搜索: "search"
