@@ -1,3 +1,7 @@
+---
+tag: [jekyll]
+tag: [blog搭建]
+---
 **注意**，如果是用`githubpage+jekyll`搭建博客,则其markdown的解析引擎为<font color = "red">kramdown</font>。
 kramdown和markdown的区别如下：
 >
