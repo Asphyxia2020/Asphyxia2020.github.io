@@ -1,5 +1,5 @@
 ---
-tag: [c++]
+tag: [C++]
 category: true
 ---
 * 关联容器map中的count()方法。  
