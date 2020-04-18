@@ -11,7 +11,7 @@ github_repo: "https://github.com/Asphyxia2020/Asphyxia2020.github.io.git" # you 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "十里荷花"
+sidebar-about-description: "时间错过不会再来"
 sidebar-avatar: /img/20170911165626_YMNdC.jpeg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
