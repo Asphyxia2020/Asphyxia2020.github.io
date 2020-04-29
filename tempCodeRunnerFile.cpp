@@ -3,9 +3,6 @@
 
 using namespace std;
 int main() {
-    int x = 100;
-    int y = 5;
-    x /= 2 * y;
-    cout << x << endl;
+    cout << 1E-6;
     return 0;
 }
