@@ -21,8 +21,8 @@ category: true
     else if (first==middle) middle=next;
   }
 }
- ```  
- 
+```       
+
  此方法很好的解决了[189.旋转数组](https://leetcode-cn.com/problems/rotate-array/)问题  
  <font color = "red">该方法适用数组元素个数>2的数组</font>
 
